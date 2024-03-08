@@ -17,6 +17,10 @@ public class TestRectangle {
 		*/
 		Rectangle obiect3 = new Rectangle(8,12);
 		System.out.println(obiect3.calculArie());
+		System.out.println(obiect3.afiseazaCuloareDreptunghi());
+		
+		Rectangle obiect4 = new Rectangle(4,7,"GALBEN");
+		System.out.println(obiect4.afiseazaCuloareDreptunghi());
 	}
 
 }
