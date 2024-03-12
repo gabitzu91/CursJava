@@ -15,8 +15,10 @@ public class CheckPunctajTest {
 		askTheUserForTestScore();
 		if(nota >= 0 && nota<= 65) {
 			System.out.println("Ai picat. Mai incearca!");
-		}else {
+		}else if(nota >= 66 && nota <= 100){
 			System.out.println("Felicitari, Ai trecut!");
+		}else {
+			System.out.println("Nota introdusa nu este valida");
 		}
 	}
 }
