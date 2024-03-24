@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CalculatorDiscount {
 
-	int invoice;
+	double invoice;
 	public void askTheUserForInvoice() {
 		System.out.println("Introdu valoarea facturii:");
 		Scanner scan = new Scanner(System.in);
@@ -12,6 +12,10 @@ public class CalculatorDiscount {
 	}
 	
 	public double getDiscount() {
-		
+		askTheUserForInvoice();
+		double discount = invoice>=100? invoice*10/100 : invoice*5/100;
+		System.out.println("Valoarea discountului este:" + discount);
+		System.out.println("Valoarea facturii finale este:" + (discount+invoice));
+		return discount;
 	}
 }
