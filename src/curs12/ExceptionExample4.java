@@ -25,7 +25,7 @@ public class ExceptionExample4 {
 				number1=Integer.parseInt(scan.next());
 				
 			}catch(NumberFormatException e) {
-				//e.printStackTrace();
+				e.printStackTrace();
 				System.out.println("Please enter only numeric values!");
 				continue;
 			}
@@ -36,7 +36,7 @@ public class ExceptionExample4 {
 					number2=Integer.parseInt(scan.next());
 					
 				}catch(NumberFormatException e) {
-					//e.printStackTrace();
+					e.printStackTrace();
 					System.out.println("Please enter only numeric values!");
 					continue;
 				}
