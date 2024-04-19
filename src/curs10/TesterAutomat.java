@@ -2,15 +2,17 @@ package curs10;
 
 public class TesterAutomat extends Tester {
 
-	private String programmingLanguage;
+	private String programingLanguage;
 
-	public String getProgrammingLanguage() {
-		return programmingLanguage;
+	public String getProgramingLanguage() {
+		return programingLanguage;
 	}
 
-	public void setProgrammingLanguage(String programmingLanguage) {
-		this.programmingLanguage = programmingLanguage;
+	public void setProgramingLanguage(String programingLanguage) {
+		this.programingLanguage = programingLanguage;
 	}
+	
+	
 	
 	
 }

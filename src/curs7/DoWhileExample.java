@@ -3,9 +3,8 @@ package curs7;
 public class DoWhileExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-String[] array = { "rosu", "verde", "galben", "alb" };
+		String[] array = { "rosu", "verde", "galben", "alb" };
 		
 		int i=0;
 		

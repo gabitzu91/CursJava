@@ -1,9 +1,11 @@
 package curs10;
 
-public class Tester extends Angajat {
+public class Tester extends Angajat{
 
 	private String seniority;
 	private String departament;
+	
+	
 	public String getSeniority() {
 		return seniority;
 	}
@@ -16,6 +18,9 @@ public class Tester extends Angajat {
 	public void setDepartament(String departament) {
 		this.departament = departament;
 	}
+	
+	
+	
 	
 	
 }

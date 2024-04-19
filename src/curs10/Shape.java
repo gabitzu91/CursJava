@@ -9,4 +9,6 @@ public class Shape {
 		this.nume = nume;
 		this.culoare = culoare;
 	}
+	
+	
 }
