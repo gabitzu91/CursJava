@@ -6,9 +6,16 @@ public class TestJsonProcessor {
 		// TODO Auto-generated method stub
 
 		JsonFileProcessor obj = new JsonFileProcessor();
-		//obj.writeJsonFile();
+		obj.writeJsonFile();
 		//obj.readJsonFile("email");
-		obj.readJsonFile2(null);
+		
+		//obj.readJsonFile2(null);
+		
+		obj.readJsonFile("name");
+		obj.updateJsonFile("name", "Maria");
+		obj.readJsonFile("name");
+		obj.deleteFromJsonFile("name");
+		obj.readJsonFile("name");
 	}
 
 }
